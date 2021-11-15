@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { Suspense, useState, useEffect } from 'react';
 import { Spiner } from '../Spiner/Spiner';
 import { fetchFish } from '../../api/index';
