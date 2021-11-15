@@ -1,0 +1,24 @@
+.dropdown {
+  font-size: 1.5rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &-items {
+    margin: 0.7rem 3rem;
+    position: absolute;
+    z-index: 2;
+    font-size: 1.5rem;
+    background-color: transparentize($color: #f3f3f3, $amount: 0);
+  }
+  &-item {
+    border-bottom: 0.1rem solid black;
+    width: 8rem;
+    transition: 0.2s;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.04);
+    }
+  }
+}
